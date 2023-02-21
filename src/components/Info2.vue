@@ -1,19 +1,20 @@
 <script setup>
-defineProps({
-  msg: {
-    type: String,
-    required: true
-  }
-})
+import Elementos from './Elementos.vue'
+
 </script>
 
 <template>
-  <div class="greetings">
-    <h1 class="blue">{{ msg }}</h1>
-    <h3>
-      
-    <a href="http://isclab.com.mx/" target="_blank" rel="noopener"> Contacto: contacto@isclab.com.mx </a>.
 
-    </h3>
-  </div>
+  <Elementos>
+    <template #icon>
+      <ToolingIcon />
+    </template>
+    <template #heading>¿Qué clase de proyectos realizamos?</template>
+
+    Nuestro laboratorio está pensado para programadores por lo que los productos que creamos se categorizan como software.
+    El software puede encajar en alguna de estas posibilidades :
+
+
+  </Elementos>
+
 </template>
