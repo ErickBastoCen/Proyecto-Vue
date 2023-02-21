@@ -1,16 +1,21 @@
 <script setup>
-import Elementos from './Elementos.vue'
+import Estructura from './Estructura.vue'
 
 </script>
 
 <template>
-  <Elementos>
-    
-    <template #heading>¿Pueden crear un sitio web gratuito para mi proyecto?</template>
 
-    La respuesta corta es sí.
-    Claro que necesitamos saber en qué consiste el sitio que necesitas y tu historia para valorar el apoyo gratuito en la creación y publicación de tu sitio.
-    Averigua las condiciones de un sitio web gratuito para nosotros será un placer apoyarte.
-  </Elementos>
-  
+  <Estructura>
+
+    <template #heading>¿Qué hacemos en ISCLAB?</template>
+    <br />
+    
+  </Estructura>
+  <CENTER>
+  Desarrollamos aplicaciones con fines de práctica, investigación y responsabilidad social.
+    Buscamos el desarrollo de nuestros estudiantes a través de la creación de proyectos que sean útiles a la sociedad.
+    <br />
+    <br />
+    ¿Tienes un proyecto en mente? Compártelo con nosotros y buscaremos la manera de ayudarte.  
+  </CENTER>
 </template>

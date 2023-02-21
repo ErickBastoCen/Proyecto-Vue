@@ -1,35 +1,26 @@
 <script setup>
-import Elementos from './Elementos.vue'
+import Estructura2 from './Estructura2.vue'
 
 </script>
 
 <template>
 
  
- <Elementos>
+<Estructura2>
    
-    <template #heading>Sitio WEB.</template>
+   <template #heading>Sitio WEB.</template>
 
+</Estructura2>
 
-    Los sitios web son lo que conocemos comúnmente por "página web".
-
-    <br />
-
-    Es la solución adecuada para:
-
-    <br />
-
-    -Promover servicios o productos.
-
-    <br />
-
-    -Presentar contenidos o información al público.
-
-    <br />
-
-    -Promover un negocio.
-
-  </Elementos>
+Los sitios web son lo que conocemos comúnmente por "página web".
+<br />
+<br />
+Es la solución adecuada para:
+<ul>
+   <li>Promover servicios o productos</li>
+   <li>Presentar contenidos o información al público</li>
+   <li>Promover un negocio</li>
+</ul>
 
  
 </template>

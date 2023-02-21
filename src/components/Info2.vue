@@ -1,20 +1,20 @@
 <script setup>
-import Elementos from './Elementos.vue'
+import Estructura from './Estructura.vue'
 
 </script>
 
 <template>
 
-  <Elementos>
-    <template #icon>
-      <ToolingIcon />
-    </template>
-    <template #heading>¿Qué clase de proyectos realizamos?</template>
+  <Estructura>
 
-    Nuestro laboratorio está pensado para programadores por lo que los productos que creamos se categorizan como software.
-    El software puede encajar en alguna de estas posibilidades :
+    <template #heading>¿Pueden crear un sitio web gratuito para mi proyecto?</template>
+  </Estructura>
+  <CENTER>
+   La respuesta corta es sí.
 
-
-  </Elementos>
-
+    Claro que necesitamos saber en qué consiste el sitio que necesitas y tu historia para valorar el apoyo gratuito en la creación y publicación de tu sitio.
+    <br />
+    <br />
+    Averigua las condiciones de un sitio web gratuito para nosotros será un placer apoyarte.
+  </CENTER>
 </template>
