@@ -6,7 +6,7 @@ import Estructura2 from './Estructura2.vue'
 <template>
 
   <Estructura2>
-    <template #heading>ISCLAB© </template>
+    <template #heading>ISCLAB </template>
 
     
   </Estructura2>
