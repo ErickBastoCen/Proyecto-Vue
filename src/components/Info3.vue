@@ -8,7 +8,7 @@ import Estructura2 from './Estructura2.vue'
  
 <Estructura2>
    
-   <template #heading>Sitio WEB.</template>
+   <template #heading>Sitio Web</template>
 
 </Estructura2>
 

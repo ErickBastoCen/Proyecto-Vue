@@ -5,12 +5,14 @@ import Info2 from './components/Info2.vue'
 import Info3 from './components/Info3.vue'
 import Info4 from './components/Info4.vue'
 import Info5 from './components/Info5.vue'
+import Info6 from './components/Info6.vue'
+import Tipos from './components/Tipos.vue'
 </script>
 
 <template>
   
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" />     
+    <img alt="Logo" class="logo" src="./assets/logo.svg" />     
     <br />
     <br />
   </header>
@@ -34,13 +36,19 @@ import Info5 from './components/Info5.vue'
 
     <br />
     <br />
-
+    <Tipos />
+    <br />
+    <br />
     <Info3 />
     <br />
     <br />
     <Info4 />
 
   </body>
+
+  <br />
+  <br />
+  <Info6 />
 
   <br />
   <br />

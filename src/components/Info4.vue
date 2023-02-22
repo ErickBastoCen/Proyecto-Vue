@@ -6,12 +6,13 @@ import Estructura2 from './Estructura2.vue'
 <template>
 
   <Estructura2>
-    <template #heading>Aplicación web</template>
+    <template #heading>Aplicación Web</template>
 
     
   </Estructura2>
   Son como los sitios web, pero estos además pueden manipular datos.
-
+  <br />
+  <br />
   Es la solución adecuada para:
 
   <ul>
